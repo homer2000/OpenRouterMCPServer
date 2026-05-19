@@ -1,0 +1,29 @@
+{
+    "_comment": "KEEP SECRET — contains API keys. Do NOT commit to VCS.",
+    "accounts": [
+        {
+            "id":          "or-gpt4o-mini",
+            "name":        "OpenRouter GPT-4o Mini",
+            "model":       "openai/gpt-4o-mini",
+            "api_key":     "sk-or-v1-YOUR_KEY_HERE",
+            "base_url":    "https://openrouter.ai/api/v1",
+            "description": "Cost-effective everyday tasks"
+        },
+        {
+            "id":          "or-claude-sonnet",
+            "name":        "OpenRouter Claude Sonnet",
+            "model":       "anthropic/claude-sonnet-4-5",
+            "api_key":     "sk-or-v1-YOUR_SECOND_KEY_HERE",
+            "base_url":    "https://openrouter.ai/api/v1",
+            "description": "Claude via OpenRouter for complex reasoning"
+        },
+        {
+            "id":          "groq-llama",
+            "name":        "Groq Llama 3.3 70B",
+            "model":       "llama-3.3-70b-versatile",
+            "api_key":     "gsk_YOUR_GROQ_KEY_HERE",
+            "base_url":    "https://api.groq.com/openai/v1",
+            "description": "Ultra-fast inference via Groq"
+        }
+    ]
+}
